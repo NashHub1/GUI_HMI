@@ -10,6 +10,7 @@ import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Date;
 
 
 public class Controller {
@@ -19,11 +20,32 @@ public class Controller {
 
 
     public void Up(ActionEvent e) {
+
         System.out.println("Up pressed");
+
+        Date date = new Date();
+        String message = "{\n" +
+                " \"type\":\"TravReq\",\n" +
+                " \"device\":\"[Elevator Panel|Panel outside],\n" +
+                " \"request\":\"[move to level X|open door|close door|emergency]\",\n" +
+                " \"time\":\"[iso-8601-datetime]\"\n" +
+                "}";
+        //publisher.sendMessage(message);
+
     }
     public void Down(ActionEvent e) {
 
         System.out.println("Down pressed");
+
+        Date date = new Date();
+        String message = "{\n" +
+                " \"type\":\"TravReq\",\n" +
+                " \"device\":\"[Elevator Panel|Panel outside],\n" +
+                " \"request\":\"[move to level X|open door|close door|emergency]\",\n" +
+                " \"time\":\"[iso-8601-datetime]\"\n" +
+                "}";
+        //publisher.sendMessage(message);
+
     }
 
     public void switchToElevator(ActionEvent e) throws IOException {
