@@ -3,7 +3,7 @@ package app.gui_hmi;
 import org.eclipse.paho.client.mqttv3.*;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
-public class subcriber {
+public class subscriber {
 
     public void createSub(){
 

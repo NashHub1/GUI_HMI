@@ -14,7 +14,7 @@
     <orderEntry type="library" name="Gradle: org.openjfx:javafx-graphics:win:17.0.1" level="project" />
     <orderEntry type="library" name="Gradle: org.openjfx:javafx-base:17.0.1" level="project" />
     <orderEntry type="library" name="Gradle: org.openjfx:javafx-base:win:17.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5:" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="GUI_HMI.main" />
 </module>
